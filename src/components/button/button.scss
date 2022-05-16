@@ -1,0 +1,20 @@
+$success-color: #3DB36B;
+
+.btn {
+    padding: 20px 45px !important;
+    border-radius: 0% !important;
+    font-size: 1rem !important;
+    border: none  !important;
+    box-shadow: none !important;
+    font-weight: 500 !important;
+
+    .btn-success {
+        background: $success-color !important;
+        color: #ffffff !important;
+    }
+
+    .btn-light {
+        background: #ffffff !important;
+        color: #3DB36B !important;
+    }
+}

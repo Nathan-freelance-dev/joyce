@@ -1,0 +1,23 @@
+$text-dark: #222222;
+$transition: .3s ease-in;
+$primary-color: #3DB36B;
+
+nav {
+    padding: 0px !important;
+    
+    .nav-link {
+        padding: 35px 0px;
+        margin: 0px 10px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: $text-dark !important;
+        font-size: .8rem;
+        border-bottom: 2px solid transparent;
+        transition: $transition;
+
+        &:hover {
+            border-color: $primary-color;
+            color: $primary-color !important;
+        }
+    }
+}

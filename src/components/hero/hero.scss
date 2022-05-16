@@ -1,0 +1,23 @@
+.hero {
+    height: 79.6vh;
+    position: relative;
+    width: 100vw;
+    background: linear-gradient(rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.733)), url('../../assets/images/parallex-image.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    .container {
+        display: flex;
+        align-items: center;
+        height: 100%;
+
+        .hero_text {
+            h1 {
+                font-size: 5rem;
+                font-weight: 700;
+            }
+        }
+    }
+}
