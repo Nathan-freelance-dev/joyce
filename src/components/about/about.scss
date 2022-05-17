@@ -1,0 +1,21 @@
+$success-color: #3DB36B;
+
+.about {
+    padding: 100px 0px;
+
+    .container {
+        h1 {
+            font-size: 3rem;
+        }
+
+        .service_detail {
+            background: $success-color;
+            padding: 20px 50px;
+            bottom: 0%;
+        }
+
+        .carousel-indicators {
+            display: none;
+        }
+    }
+}

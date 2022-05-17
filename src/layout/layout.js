@@ -1,15 +1,15 @@
 import React from "react";
 import './layout.scss'
 import Header from "../components/header/header";
-import MyNavbar from "../components/navbar/navbar";
 import Hero from "../components/hero/hero";
+import About from '../components/about/about'
 
 const Layout = () => {
     return (
         <>
             <Header />
-            <MyNavbar />
             <Hero />
+            <About />
         </>
     )
 }

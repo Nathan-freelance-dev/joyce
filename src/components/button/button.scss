@@ -8,13 +8,13 @@ $success-color: #3DB36B;
     box-shadow: none !important;
     font-weight: 500 !important;
 
-    .btn-success {
+    &.btn-success {
         background: $success-color !important;
         color: #ffffff !important;
     }
 
-    .btn-light {
+    &.btn-light {
         background: #ffffff !important;
-        color: #3DB36B !important;
+        color: $success-color !important;
     }
 }

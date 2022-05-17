@@ -5,7 +5,7 @@ import './navbar.scss'
 
 const MyNavbar = () => {
     return (
-        <Navbar bg="white" expand="lg" className="sticky-top shadow">
+        <Navbar bg="white" expand="lg" className="shadow-sm">
             <Container>
                 <Navbar.Brand href="#home">
                     <img src={Brand} width="65%" alt="brand" />

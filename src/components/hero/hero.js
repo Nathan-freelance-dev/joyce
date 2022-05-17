@@ -9,7 +9,7 @@ const Hero = () => {
             <section className="hero" id="hero"> 
                 <Container>
                     <div className="hero_text">
-                        <h6 className="text-muted text-uppercase">Hair dressing, makeup, nails</h6>
+                        <h6 className="text-light fw-light text-uppercase">Hair dressing, makeup, nails</h6>
 
                         <h1 className="text-white mt-3">Beauty Salon <br/> Abuja City</h1>
 
