@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
 
+$success: #3DB36B;
+
 body {
     margin: 0%;
     padding: 0%;
@@ -7,4 +9,8 @@ body {
     overflow-x: hidden;
     font-family: 'Montserrat', sans-serif !important;
     scroll-behavior: smooth;
+
+    .text-success {
+        color: $success !important;
+    }
 }
