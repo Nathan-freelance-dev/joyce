@@ -17,4 +17,12 @@ export const joyceServiceData = [
         price: "$80+",
         link: "Book Online"
     },
+
+    {
+        icon: <giIcons.GiFingernail />,
+        title: "Manicure",
+        detail: "Integer a quam himenaeos iaculis pretium ac nisl, magna fameles",
+        price: "$150+",
+        link: "Book Online"
+    },
 ]

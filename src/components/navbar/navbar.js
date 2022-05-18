@@ -7,7 +7,7 @@ const MyNavbar = () => {
     return (
         <Navbar bg="white" expand="lg" className="shadow-sm">
             <Container>
-                <Navbar.Brand href="#home">
+                <Navbar.Brand href="#">
                     <img src={Brand} width="65%" alt="brand" />
                 </Navbar.Brand>
 
@@ -16,7 +16,7 @@ const MyNavbar = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
                         <Nav.Link href="#about">About</Nav.Link>
-                        <Nav.Link href="#services">Services</Nav.Link>
+                        <Nav.Link href="#service">Services</Nav.Link>
                         <Nav.Link href="#testimonials">Testimonials</Nav.Link>
                         <Nav.Link href="#work">Our Work</Nav.Link>
                         <Nav.Link href="#faq">Faq</Nav.Link>

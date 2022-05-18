@@ -9,6 +9,9 @@ const Service = () => {
         <>
             <section className='bg-light service-container' id='service'>
                 <Container>
+                    <h6 className='text-muted text-center text-uppercase'>What we do best</h6>
+                    <h1 className='text-dark text-center text-uppercase fw-bold mb-4'>Our Services</h1>
+
                     <Row>
                         {joyceServiceData.map((data, index) => {
                             return (
