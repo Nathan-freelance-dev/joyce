@@ -5,6 +5,7 @@ import Hero from "../components/hero/hero";
 import About from '../components/about/about'
 import Service from "../components/services/service";
 import Reviews from "../components/testimonials/testi";
+import BookingOnline from "../components/bookOnline/onlineBooking";
 
 const Layout = () => {
     return (
@@ -14,6 +15,7 @@ const Layout = () => {
             <About />
             <Service />
             <Reviews />
+            <BookingOnline />
         </>
     )
 }

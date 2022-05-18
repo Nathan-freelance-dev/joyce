@@ -1,3 +1,18 @@
+$success: #3DB36B;
+
 .testimonial {
     padding: 100px 0px;
+
+    .review-card {
+        border-left: 5px solid $success !important;
+        .client_detail_container {
+            .avater_img {
+                width: 60px !important;
+            }
+    
+            .text-start {
+                width: 100%;
+            }
+        }
+    }
 }
