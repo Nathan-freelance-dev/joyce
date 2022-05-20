@@ -9,7 +9,7 @@ const Reviews = () => {
             <section className="testimonial bg-white" id="testimonials">
                 <Container>
                     <h6 className="text-muted">
-                        #1 RATED BEAUTY SERVICE IN NY
+                        #1 RATED BEAUTY SERVICE IN ABUJA
                     </h6>
                     <h1 className="text-dark fw-bold">
                         Testimonials

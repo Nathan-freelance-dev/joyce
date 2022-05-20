@@ -1,0 +1,13 @@
+.work_container {
+    padding: 100px 0px;
+
+    .work_img {
+        filter: grayscale(1) !important;
+        transition: .4s ease-in;
+        height: 250px;
+
+        &:hover {
+            filter: grayscale(0) !important;
+        }
+    }
+}
