@@ -5,10 +5,10 @@ import { Carousel } from "react-bootstrap";
 import Slider1 from '../../assets/images/slider-img-1.jpg'
 import Slider2 from '../../assets/images/slider-img-2.jpg'
 import MyButton from "../button/button";
-import Brand1 from '../../assets/brand/brand-1.jpg'
-import Brand2 from '../../assets/brand/brand-2.jpg'
-import Brand3 from '../../assets/brand/brand-3.jpg'
-import Brand4 from '../../assets/brand/brand-4.jpg'
+// import Brand1 from '../../assets/brand/brand-1.jpg'
+// import Brand2 from '../../assets/brand/brand-2.jpg'
+// import Brand3 from '../../assets/brand/brand-3.jpg'
+// import Brand4 from '../../assets/brand/brand-4.jpg'
  
 const About = () => {
     return (
@@ -27,7 +27,7 @@ const About = () => {
 
                     <div className="mt-4 position-relative">
                         <Carousel variant="dark">
-                            <Carousel.Item>
+                            <Carousel.Item className="h-50">
                                 <img className="d-block w-100" src={Slider1} alt="First slide"/>
                             </Carousel.Item>
 
@@ -36,7 +36,7 @@ const About = () => {
                             </Carousel.Item>
                         </Carousel>
 
-                        <div className="position-absolute service_detail">
+                        <div className="service_detail">
                             <Row>
                                 <Col md={8}>
                                     <div className="text-light">
@@ -58,7 +58,7 @@ const About = () => {
                         </div>
                     </div>
 
-                    <div className="mt-4">
+                    {/* <div className="mt-4">
                         <h6 className="text-muted">Products we use</h6>
 
                         <Row className="mt-3">
@@ -78,7 +78,7 @@ const About = () => {
                                 <img src={Brand4} width="80%" />
                             </Col>
                         </Row>
-                    </div>
+                    </div> */}
                 </Container>
             </section>
         </>

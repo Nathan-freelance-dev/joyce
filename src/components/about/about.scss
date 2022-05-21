@@ -11,11 +11,14 @@ $success-color: #3DB36B;
         .service_detail {
             background: $success-color;
             padding: 20px 50px;
-            bottom: 0%;
         }
 
         .carousel-indicators {
             display: none;
+        }
+
+        .carousel-item {
+            height: 65vh !important;
         }
     }
 }

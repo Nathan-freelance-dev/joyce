@@ -7,6 +7,9 @@ import Service from "../components/services/service";
 import Reviews from "../components/testimonials/testi";
 import BookingOnline from "../components/bookOnline/onlineBooking";
 import Work from "../components/work/work";
+import Faqs from "../components/faq/faq";
+import Contact from "../components/contact";
+import Footer from "../components/footer";
 
 const Layout = () => {
     return (
@@ -18,6 +21,9 @@ const Layout = () => {
             <Reviews />
             <BookingOnline />
             <Work />
+            <Faqs />
+            <Contact />
+            <Footer />
         </>
     )
 }

@@ -1,0 +1,15 @@
+$success: #3DB36B;
+
+.faq_container {
+    padding: 100px 0px;
+
+    .accordion-button {
+        color: #3DB36B !important;
+        background: #fff !important;
+        box-shadow: none !important;
+
+        &.collapsed {
+            color: #222222 !important;
+        }
+    }
+}
